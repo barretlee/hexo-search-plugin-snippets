@@ -3,6 +3,12 @@
 1、你可以将下面代码作为片段插入到其他 ejs 文件中
 2、也可以将其作为一个文件，通过 <%- partial('path/to/search') %> 的方式引入
 
+注意：下列代码增加了两个参数，所以通过 partial 方法引入的时候，需要这样处理：
+
+<%- partial('path/to/search', {wrapStyle: '', inputStyle: ''}) %>
+
+否则可能会报错，当然，你可以把这两个参数干掉。
+
 -->
 
 <span class="local-search local-search-google local-search-plugin" style="<%- wrapStyle %>">
