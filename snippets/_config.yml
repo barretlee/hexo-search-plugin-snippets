@@ -1,0 +1,5 @@
+# 添加到根目录下的 _config.yml 中
+
+search:
+  path: search.xml
+  field: post
