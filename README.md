@@ -1,6 +1,6 @@
 # hexo-search-plugin-snippets
 
-[文档介绍](http://www.barretlee.com/blog/2017/06/02/hexo-search-insite/)
+[文档介绍](http://www.barretlee.com/blog/2017/06/04/hexo-search-insite/)
 
 一些辅助 `hexo-generator-search` 插件的代码片段，使用它可以实现如下效果：
 
